@@ -37,6 +37,12 @@ def mult(a, b):
 def div(a, b):
     return a / b
 
+# Divide function
+# a -- number
+# b -- a to the power b
+def exp(a, b):
+    return a ** b
+
 
 # -------------------------------------------------------- #
 
@@ -71,6 +77,8 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
+        elif (op == "**"):
+            print"exponent: ",  exp(a, b)
         else:
             print "Invalid operation..."
 
